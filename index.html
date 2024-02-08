@@ -5,16 +5,96 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>VIAJSILIIS - Reserva</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="./Images/Logo.png">
         <script type="module"
             src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule
             src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     </head>
     <body>
+        <header>
+            <h1><img src="./Images/Banner.png" alt></h1>
+        </header>
         <main>
-            <h1>Reserva realizada del 11 al 13 de febrero</h1>
-            <ion-icon
-                name="checkmark-circle-outline" class="ion-icon"></ion-icon>
+            <section class="sec1">
+                <h2>Reserva</h2>
+                <h3>Reserva realizada del 11 al 13 de febrero</h3>
+                <ion-icon
+                    name="checkmark-circle-outline" class="ion-icon"></ion-icon>
+            </section>
+            <section class="sec-carta">
+                <h2>Carta</h2>
+                <div class="center">
+                    <iframe
+                        class="google-maps"
+                        src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2986227.386030542!2d-2.968065530150224!3d43.03643039743443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x12b15d9b23e35ead%3A0xcbd17af99f987bd5!2sClermont-l&#39;H%C3%A9rault%2C%2034800!3m2!1d43.62759!2d3.4294949999999997!4m5!1s0xd413ee6a93332f9%3A0x54567221bf13dfb7!2sSegovia%2C%20Espa%C3%B1a!3m2!1d40.942903199999996!2d-4.108806899999999!5e0!3m2!1ses!2sfr!4v1707399488187!5m2!1ses!2sfr"
+                        style="border:0;"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </section>
+            <section class="sec-restaurantes">
+                <h2>Restaurantes</h2>
+                <div class="restaurant-list">
+                    <article class="restaurant-card">
+                        <div class="left">
+                            <img class="image-restaurante"
+                                src="./Images/Restaurants/Parador de Segovia.jpg">
+                        </div>
+                        <div class="right">
+                            <h4>Restaurante del Parador de Segovia</h4>
+                            <p>Precio del menú : 49€</p>
+                        </div>
+                    </article>
+                    <article class="restaurant-card">
+                        <div class="left">
+                            <img class="image-restaurante"
+                                src="./Images/Restaurants/Asador David Guijarro.jpg">
+                        </div>
+                        <div class="right">
+                            <h4>Restaurante Asador David Guijarro</h4>
+                            <p>Precio del menú : 30€</p>
+                        </div>
+                    </article>
+                    <article class="restaurant-card">
+                        <div class="left">
+                            <img class="image-restaurante"
+                                src="./Images/Restaurants/New Niagara.webp">
+                        </div>
+                        <div class="right">
+                            <h4>Restaurante New Niagara</h4>
+                            <p>Precio del menú : 20€</p>
+                        </div>
+                    </article>
+                    <article class="restaurant-card">
+                        <div class="left">
+                            <img class="image-restaurante"
+                                src="./Images/Restaurants/Rosa Mexicano Taqueria.jpg">
+                        </div>
+                        <div class="right">
+                            <h4>Restaurante Rosa Mexicano Taqueria</h4>
+                            <p>Precio del menú : 10€</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
         </main>
+        <footer>
+            <div class="footer">
+
+                <h4>
+                    ¡ Contactenos !
+                </h4>
+                <ul class="contact">
+                    <li><ion-icon name="call-outline"></ion-icon><span>07 60 25
+                            16
+                            90</span></li>
+                    <li><ion-icon
+                            name="mail-outline"></ion-icon><span>manoah.avril@viajsiliis.pro</span></li>
+                    <li><ion-icon
+                            name="mail-outline"></ion-icon><span>samuel.schwab@viajsiliis.pro</span></li>
+                </ul>
+            </div>
+        </footer>
     </body>
 </html>
